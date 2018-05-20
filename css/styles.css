@@ -16,7 +16,7 @@ body {
 
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #282828;
+    background-color: #191b28;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
 }
@@ -34,7 +34,7 @@ hr.light {
 }
 
 a {
-    color: #9c27b0;
+    color: #f5f5f5;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -42,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #9c27c1;
+    color: #f5f5f5;
     outline: 0;
 }
 
@@ -66,12 +66,12 @@ p {
 }
 
 .bg-primary {
-    background-color: #333;
+    background-color: #1e2130;
 }
 
 .bg-dark {
     color: #eee;
-    background-color: #222;
+    background-color: #1e2130;
 }
 
 .cursive {
@@ -88,7 +88,7 @@ p {
 }
 
 .text-primary {
-    color: #9c27b0;
+    color: #f5f5f5;
 }
 
 .modal-content {
@@ -122,7 +122,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    color: #f5f5f5;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -151,12 +151,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9c27b0;
+    color: #f5f5f5;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    color: #f5f5f5 !important;
     background-color: transparent;
 }
 
@@ -199,12 +199,12 @@ footer {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #222;
+        background-color: #191b28;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #9c27b0;
+        color: #f5f5f5;
         padding: 20px;
         letter-spacing: 1px;
     }
@@ -222,7 +222,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        color: #f5f5f5;
     }
 }
 
@@ -233,7 +233,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-image: url(csgo_02-3-1024x576.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -277,7 +277,7 @@ header .header-content .inner p {
 }
 
 footer {
-    background-color:#2d2d2d;
+    background-color:#1e2130;
 }
 
 @media(min-width:768px) {
@@ -521,4 +521,197 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #191b28;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #191b28;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #191b28;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+.columnn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+/* Clear floats after the columns */
+.roww:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#gren{
+    float: right;
+}
+.columne {
+    float: left;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 33%;
+}
+
+.middle {
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.rowe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+  margin-left: 350px;
+}
+
+.middle, .right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  font: 1em 'PT Sans', sans-serif;
+}
+
+::selection {
+  background-color: #4EC6DE;
+}
+
+.tabbed {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.tabbed > input {
+  display: none;
+}
+
+.tabbed > label {
+  display: block;
+  float: left;
+  padding: 12px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.tabbed > label:hover,
+.tabbed > input:checked + label {
+  background: #4EC6DE;
+}
+
+.tabs {
+  clear: both;
+  perspective: 600px;
+}
+
+.tabs > div {
+  width: 700px;
+  position: absolute;
+  border: 2px solid #4EC6DE;
+  padding: 10px 20px 40px;
+  line-height: 1.4em;
+  opacity: 0;
+  transform: rotateX(-20deg);
+  transform-origin: top center;
+  transition: opacity .3s, transform 1s;
+  z-index: 0;
+}
+
+#tab-nav-1:checked ~ .tabs > div:nth-of-type(1),
+#tab-nav-2:checked ~ .tabs > div:nth-of-type(2),
+#tab-nav-3:checked ~ .tabs > div:nth-of-type(3),
+#tab-nav-4:checked ~ .tabs > div:nth-of-type(4){
+  transform: rotateX(0);
+  opacity: 1;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .tabbed { width: 400px }
+  .tabbed > label { display: none }
+  .tabs > div {
+    width: 400px;
+    border: none;
+    padding: 0;
+    opacity: 1;
+    position: relative;
+    transform: none;
+    margin-bottom: 60px;
+  }
+  .tabs > div h2 {
+    border-bottom: 2px solid #4EC6DE;
+    padding-bottom: .5em;
+  }
 }
